@@ -10,8 +10,58 @@
     
 
 }
+
+.p {
+    text-align: left;
+}
+
+@media screen and (max-width: 500px) {
+    .titlee {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .metrics-heading {
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+    .titlee {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .metrics-heading {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .titlee {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .metrics-heading {
+        font-size: 36px;
+    }
+}
+.p {
+    color: white;
+}
 p{
-    color: #8EA9C1;
+    color: #ffffff;
     font-family: DM Sans;
     font-weight: 400;
     font-size: 16px;
